@@ -13,7 +13,7 @@ public class Ukulele : Music_instrument
     }
     public void Instrument()
     {
-        Console.WriteLine($"Нвзва - {Show}");
+        Console.WriteLine($"Назва - {Show}");
         Console.WriteLine($"Опис - {Desc}");
         Console.WriteLine($"історія - {History}");
         Console.WriteLine($"Звук - {Sound} ");
