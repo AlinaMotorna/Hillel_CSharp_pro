@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_Money", "Lesson_2\Class_Money\Class_Money.csproj", "{8516957E-D931-4D07-9FD8-A57E124AD2C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Music_Instrument", "Lesson_2\Music_Instrument\Music_Instrument.csproj", "{77EB7F34-1D7D-43F3-82FE-C013A4A426DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8516957E-D931-4D07-9FD8-A57E124AD2C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8516957E-D931-4D07-9FD8-A57E124AD2C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8516957E-D931-4D07-9FD8-A57E124AD2C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77EB7F34-1D7D-43F3-82FE-C013A4A426DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77EB7F34-1D7D-43F3-82FE-C013A4A426DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77EB7F34-1D7D-43F3-82FE-C013A4A426DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77EB7F34-1D7D-43F3-82FE-C013A4A426DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
