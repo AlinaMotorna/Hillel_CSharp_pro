@@ -1,14 +1,18 @@
-﻿namespace HelloWorld
+﻿namespace Class_Money
 {
-    class Program
+    class Program 
     {
 
         static void Main(string[] args)
         {
-             void howmuch()
+            var money = new Money
             {
-                Console.WriteLine("У вас " + Hrivna + " рублей " + Copiyki + " копеек");
-            }
+                hrivna = 100,
+                coin = 50
+            };
+            money.ShowSum();
+
+            
         }
     }
 }
