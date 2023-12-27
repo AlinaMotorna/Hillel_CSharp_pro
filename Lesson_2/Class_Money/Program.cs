@@ -5,14 +5,18 @@
 
         static void Main(string[] args)
         {
-            var money = new Money
-            {
-                hrivna = 100,
-                coin = 50
-            };
-            money.ShowSum();
-
             
+            var Myprod = new Product
+            {
+                Moneysum = new Money
+                {
+                    hrivna = 122,
+                    coin = 30
+                },
+                Name = "Apple"
+            };
+            Console.WriteLine(Myprod.Name);
+            Myprod.Showproduct();
         }
     }
 }

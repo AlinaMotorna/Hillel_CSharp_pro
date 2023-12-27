@@ -36,6 +36,7 @@ namespace Class_Money
                 {
                     coin = value;
                 }
+
             }
         }
         public void ShowSum()
