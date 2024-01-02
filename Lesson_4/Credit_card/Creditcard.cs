@@ -10,7 +10,7 @@ namespace Credit_card
     {
         public static int Plus(int kartka, int kartka2)
         {
-            return kartka + kartka2;
+            return kartka + kartka2; 
         }
         public static int Minus(int kartka, int kartka2)
         {
