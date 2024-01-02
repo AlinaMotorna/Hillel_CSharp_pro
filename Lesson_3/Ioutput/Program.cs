@@ -1,23 +1,28 @@
-﻿interface IOutput
+﻿using System.Reflection;
+namespace Ioutput
 {
-    void Show()
+    interface IOutput
     {
-        string info = "info";
+        public void Show()
+        {
+            string info = "info";
+        }
+        public void Show(string info)
+        {
+            Console.Write(info);
+        }
     }
-    void Show(string info)
+    class MyArray : IOutput
     {
-        Console.WriteLine(info);
-    }
-}
-class MyArray : IOutput
-{
-    int[] myIntArray = new int[5] { 1, 2, 3, 4, 5 };
-    public void Show() 
-    {
-        Console.WriteLine(myIntArray);
-    }
-    void Show(string info) 
-    {
-        Console.WriteLine($"{myIntArray},{info} ");
+        int[] myIntArray = new int[5] { 1, 2, 3, 4, 5 };
+        public void Show()
+        {
+            Console.Write(myIntArray);
+        }
+        public void Show(string info)
+        {
+            IOutput output = new MyArray();
+            output.Show(info);
+        }
     }
 }
