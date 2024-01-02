@@ -15,5 +15,11 @@
             Console.WriteLine(myIntArray);
         }
     }
-   
+    static void Main(string[] args)
+    {
+        MyArray myArray = new MyArray();
+        myArray.Show(myIntArray);
+    }
+
+
 }
