@@ -5,7 +5,6 @@
         int Max() {  return int.MaxValue; }
         int Min() {  return int.MinValue; }
         float Avg() {  return 0; }
-        bool Search(int valueToSearch) {  return false; }
     }
     class MyArray : IMath
     {

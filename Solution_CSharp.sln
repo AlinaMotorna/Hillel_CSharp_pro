@@ -13,7 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct", "Struct\Struct.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ioutput", "Lesson_3\Ioutput\Ioutput.csproj", "{CE583525-36DB-409B-86D3-4E575A358572}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imath", "Lesson_3\Imath\Imath.csproj", "{0FABC18F-2543-421A-A36A-E9A98DA20A91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imath", "Lesson_3\Imath\Imath.csproj", "{0FABC18F-2543-421A-A36A-E9A98DA20A91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_mployee", "Lesson_4\E_mployee\E_mployee.csproj", "{A9845D1B-79A6-44E5-A1F3-C3E58AB459D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{0FABC18F-2543-421A-A36A-E9A98DA20A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FABC18F-2543-421A-A36A-E9A98DA20A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FABC18F-2543-421A-A36A-E9A98DA20A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9845D1B-79A6-44E5-A1F3-C3E58AB459D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9845D1B-79A6-44E5-A1F3-C3E58AB459D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9845D1B-79A6-44E5-A1F3-C3E58AB459D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9845D1B-79A6-44E5-A1F3-C3E58AB459D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
