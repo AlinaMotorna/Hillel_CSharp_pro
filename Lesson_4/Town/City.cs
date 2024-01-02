@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Town
 {
-    public class City 
+    public class City
     {
         public static int Plus(int zhitely, int zhitely2)
         {
@@ -34,9 +34,9 @@ namespace Town
         }
         public static string Nerivno(int zhitely, int zhitely2)
         {
-            if (zhitely != zhitely2) return "Рівно";
+            if (zhitely != zhitely2) return "Не рівно";
             else
-                return "Не рівно";
+                return "рівно";
 
         }
         public static string Nerivno1(int zhitely, int zhitely2)

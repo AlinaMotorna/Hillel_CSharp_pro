@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_mployee", "Lesson_4\E_mpl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Town", "Lesson_4\Town\Town.csproj", "{7A555336-1DBC-4091-917A-C22D9ED5DEFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credit_card", "Lesson_4\Credit_card\Credit_card.csproj", "{D74AE050-F80B-4242-869D-14732E2CF094}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{7A555336-1DBC-4091-917A-C22D9ED5DEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A555336-1DBC-4091-917A-C22D9ED5DEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A555336-1DBC-4091-917A-C22D9ED5DEFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D74AE050-F80B-4242-869D-14732E2CF094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74AE050-F80B-4242-869D-14732E2CF094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74AE050-F80B-4242-869D-14732E2CF094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74AE050-F80B-4242-869D-14732E2CF094}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

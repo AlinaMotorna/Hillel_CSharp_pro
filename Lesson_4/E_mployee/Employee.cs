@@ -35,9 +35,9 @@ namespace E_mployee
         }
         public static string Nerivno(int zarplata, int zarplata2)
         {
-            if (zarplata != zarplata2) return "Рівно";
+            if (zarplata != zarplata2) return "Не рівно";
             else
-                return "Не рівно";
+                return "рівно";
 
         }
         public static string Nerivno1(int zarplata, int zarplata2)

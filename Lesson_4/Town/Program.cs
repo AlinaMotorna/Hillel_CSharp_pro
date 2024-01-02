@@ -1,6 +1,7 @@
-﻿namespace Town
+﻿
+namespace Town
 {
-    public class Program  : City
+    public class Program : City
     {
 
         static void Main(string[] args)
