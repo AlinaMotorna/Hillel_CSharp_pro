@@ -36,7 +36,7 @@ namespace Credit_card
         {
             if (kartka != kartka2) return "Не рівно";
             else
-                return "Рівно";
+                return "рівно";
 
         }
         public static string Nerivno1(int kartka, int kartka2)
