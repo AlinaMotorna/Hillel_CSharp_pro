@@ -1,13 +1,15 @@
 ﻿using E_mployee;
 
-namespace Class_Money
+namespace e_mployee
 {
     public class Program : Employee
     {
 
         static void Main(string[] args)
         {
+            
             Console.OutputEncoding = System.Text.Encoding.Unicode;
+            Console.WriteLine("Зарплата працівників:");
             Console.WriteLine(Plus(35000, 2500));
             Console.WriteLine(Minus(35000, 2500));
             Console.WriteLine(Rivno(35000, 2500));
