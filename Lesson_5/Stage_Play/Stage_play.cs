@@ -10,12 +10,13 @@ namespace Stage_Play
     internal class Stage_play : IDisposable
     {
 
-            string name = "тіні забутих предків";
-            string autor = "Михайло Михайлович Коцюбинський";
+        string name = "тіні забутих предків";
+            string autor = "Михайло Михайлович Коцюбинский";
             string genre = "філософія";
             int year = 1911;
         public void Stage()
         {
+            
             Console.WriteLine($"Назва п'єси: {name}");
             Console.WriteLine($"Автор: {autor}");
             Console.WriteLine($"Жанр: {genre}");
@@ -29,6 +30,5 @@ namespace Stage_Play
             Console.WriteLine($"{genre} has been disposed");
             Console.WriteLine($"{year} has been disposed");
         }
-        ~Stage_play() => Console.WriteLine("Закінчення");
     }
 }
