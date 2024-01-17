@@ -1,16 +1,14 @@
-﻿using System.Xml.Linq;
-
-namespace Stage_Play
+﻿namespace Market_
 {
-    class Program : Stage_play
+    class Program : Market
     {
-       
+
         static void Main(string[] args)
         {
 
             Console.OutputEncoding = System.Text.Encoding.Unicode;
-            Stage_play stage_play = new Stage_play();
-            stage_play.Stage();
+            Market market = new Market();
+            market.Markets();
             Console.ReadKey();
 
         }
