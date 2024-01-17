@@ -15,11 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ioutput", "Lesson_3\Ioutput
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imath", "Lesson_3\Imath\Imath.csproj", "{0FABC18F-2543-421A-A36A-E9A98DA20A91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_mployee", "Lesson_4\E_mployee\E_mployee.csproj", "{A9845D1B-79A6-44E5-A1F3-C3E58AB459D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E_mployee", "Lesson_4\E_mployee\E_mployee.csproj", "{A9845D1B-79A6-44E5-A1F3-C3E58AB459D9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Town", "Lesson_4\Town\Town.csproj", "{7A555336-1DBC-4091-917A-C22D9ED5DEFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credit_card", "Lesson_4\Credit_card\Credit_card.csproj", "{D74AE050-F80B-4242-869D-14732E2CF094}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Credit_card", "Lesson_4\Credit_card\Credit_card.csproj", "{D74AE050-F80B-4242-869D-14732E2CF094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stage_Play", "Lesson_5\Stage_Play\Stage_Play.csproj", "{EDE94F53-3934-4D81-86FE-95B6E81CDC76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{D74AE050-F80B-4242-869D-14732E2CF094}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D74AE050-F80B-4242-869D-14732E2CF094}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D74AE050-F80B-4242-869D-14732E2CF094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDE94F53-3934-4D81-86FE-95B6E81CDC76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE94F53-3934-4D81-86FE-95B6E81CDC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE94F53-3934-4D81-86FE-95B6E81CDC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE94F53-3934-4D81-86FE-95B6E81CDC76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

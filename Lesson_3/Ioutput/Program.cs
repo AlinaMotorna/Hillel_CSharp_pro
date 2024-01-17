@@ -20,8 +20,13 @@ namespace Ioutput
     {
         static void Main(string[] args)
         {
-            IOutput output = new MyArray();
-            output.Show(info);
+            MyArray rray = new MyArray();
+            IOutput[] output = new IOutput[] { new MyArray()};
+           
+            Console.WriteLine("\n*Pet Walk*");
+            rray.Show(info);
+
+            Console.Read();
         }
     }
 
