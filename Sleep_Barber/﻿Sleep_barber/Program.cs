@@ -11,7 +11,6 @@ namespace SleepingBarber
             Random Rand = new Random();
             const int MaxCustomers = 10;
             const int NumChairs = 3;
-            Semaphore waitingRoom = new Semaphore(NumChairs, NumChairs);
             Semaphore barberChair = new Semaphore(1, 1);
             Semaphore barberSleepChair = new Semaphore(0, 1);
             Semaphore seatBelt = new Semaphore(0, 1);
@@ -39,13 +38,8 @@ namespace SleepingBarber
             void Customer(Object number)
             {
                 int Number = (int)number;
-                Console.WriteLine("Клієнт {0} йде в барбершоп...", Number);
-                Thread.Sleep(Rand.Next(1, 5) * 1000);
-                Console.WriteLine("Клієнт {0} прийшов!", Number);
-                waitingRoom.WaitOne();
                 Console.WriteLine("Клієнт {0} заходить в кімнату очікування", Number);
                 barberChair.WaitOne();
-                waitingRoom.Release();
                 Console.WriteLine("Клієнт {0} будить барбера...", Number);
                 barberSleepChair.Release();
                 seatBelt.WaitOne();
